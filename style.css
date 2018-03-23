@@ -1,6 +1,5 @@
 .container {
-    /* display: flex; */
-    /* flex-direction: column; */
+    max-width: 1000px;
 }
 
 .cabecalho {
@@ -85,12 +84,14 @@
 
 .midias-sociais {
     width: 100%;
+    max-width: 500px;
 }
 
 .midias-sociais-container {
     display: flex;
     justify-content: space-around;
     margin: 90px 0 80px 0;
+    /* max-width: 500px; */
 }
 
 .midias-sociais-item {
@@ -114,4 +115,9 @@
         transform: rotate(180deg);
         opacity: 0.4;
     }
+}
+
+.pagina {
+    display: flex;
+    justify-content: center;
 }
