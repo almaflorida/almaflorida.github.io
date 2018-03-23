@@ -4,7 +4,9 @@
   "description": "site da alma florida",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "deploy": "aws s3 cp ./index.html s3://almaflorida.com.br/index.html && aws s3 cp ./style.css s3://almaflorida.com.br/ && aws s3 cp ./error.html s3://almaflorida.com.br/",
+    "deployAll": "aws s3 cp ../almaflorida.github.io s3://almaflorida.com.br/ --recursive --exclude \".git/**/*\""
   },
   "repository": {
     "type": "git",

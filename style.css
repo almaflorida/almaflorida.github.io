@@ -1,23 +1,31 @@
 .container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
-@media (max-width: 500px) {
-    .logo-img {
-        width: 90%;
-    }
+.separador {
+    width: 450px;
+    margin: 20px 0px 30px 0px;
+    align-self: center;
+    opacity: 0.4;
+}
+
+.separadorEspelhadoVertical {
+    width: 450px;
+    margin: 30px 0px 0px 0px;
+    align-self: center;
+    transform: rotate(180deg);
+    opacity: 0.4;
 }
 
 .logo-container {
     color: #7d8130;
-    margin: 40px 0;
+    margin: 30px 20px;
 }
 
 .titulo {
@@ -67,21 +75,6 @@
 
 .texto-precos-item-valor {}
 
-.separador {
-    width: 450px;
-    margin: 20px 0px 30px 0px;
-    align-self: center;
-    opacity: 0.4;
-}
-
-.separadorEspelhadoVertical {
-    width: 450px;
-    margin: 30px 0px 0px 0px;
-    align-self: center;
-    transform: rotate(180deg);
-    opacity: 0.4;
-}
-
 .imgFacebook {
     width: 100px;
 }
@@ -102,4 +95,23 @@
 
 .midias-sociais-item {
     width: 100px;
+}
+
+@media (max-width: 500px) {
+    .logo-img {
+        width: 100%;
+    }
+    .separador {
+        width: 100%;
+        margin: 20px 0px 30px 0px;
+        align-self: center;
+        opacity: 0.4;
+    }
+    .separadorEspelhadoVertical {
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        align-self: center;
+        transform: rotate(180deg);
+        opacity: 0.4;
+    }
 }
