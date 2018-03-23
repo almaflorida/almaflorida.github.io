@@ -1,0 +1,22 @@
+{
+  "name": "almaflorida.github.io",
+  "version": "0.0.1",
+  "description": "site da alma florida",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almaflorida/almaflorida.github.io.git"
+  },
+  "keywords": [
+    "site"
+  ],
+  "author": "Julio MS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almaflorida/almaflorida.github.io/issues"
+  },
+  "homepage": "https://github.com/almaflorida/almaflorida.github.io#readme"
+}
