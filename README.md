@@ -7,4 +7,6 @@
 
 # configuração S3 - AWS CLI
 
-- https://medium.com/@michal.frystacky/static-site-github-to-s3-770953a90f67
+- registroBR - https://registro.br/cgi-bin/nicbr/dominio?dominio=almaflorida.com.br
+- S3 - https://s3.console.aws.amazon.com/s3/buckets/almaflorida.com.br/?region=sa-east-1&tab=overview
+- Route53 - https://console.aws.amazon.com/route53/home?region=sa-east-1#resource-record-sets:ZQMKJ1QK0OP9X
