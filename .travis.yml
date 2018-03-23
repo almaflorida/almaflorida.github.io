@@ -1,16 +1,15 @@
 language: node_js
-
 node_js:
-  - node
-
+- node
 deploy:
   provider: s3
   access_key_id: AKIAIAKIXBYWTKZRY4KQ
   secret_access_key:
-    secure: ZXdrogUUQYjRgfoV4ofgaFXUjJXyT/Hlw51DS9AEgL9I8Ai9L55xAOizBVXfy9rfUHSV8qR7oWZHjaR96JBEAKqulMlvVByH7fmzS/oilXq8Ce1mtVcbPDDHC+yqZFLpvm7Qjz3DfBd3tV7J/H5fWB4mDs/ciQr3d/xavovricyZHYYAFpsdeWyomqok0XYhJ2uyg1FlfmZFcC+RB35iHiTFlEUmFvqqfceYkHgHnDoOANlBZtJha44qPsH7SrKuHFX7V+H7ZSDa0iGrgGAajNQlc294I/x/IQwYco+wgrLONI4yl42Mt1d94GSFnzkS25V+MJVDTOSFyjEHD0h/AdvqcluCrDsCazmqOjwyFSBKjmoxlcc7v46xY7TQq5oRRXAFhhCcog3jXVB+uTV0WNSsiiNoCABqHJ3NL0rSSsbzPKJ1KXHt3W2UmHAId7xlnOUng4K/CwWCnNjxClBbKwkdw6mddLMyl4gPk/eQvZpKkqBomsj7jbO7krASU2DtTg5kXJa4A24hla9jpk0TthiarSy4jqRP2Uzuwjc/V0EPQqGyfGKl06cdcEsYpMGu9HzWkL3m91lJcZ220v9iQo0deK04MDi7gf9DxgpQWhxpn1H8IUYkiAmo9ZEW5alTlp24eirRUQ03dnEQK4tqGc99zZAVgH/L8lip3y+buq8=
-  bucket: "s3://almaflorida.com.br/"
-  acl: public_read
-
+    secure: I0LqHeHPDGHVMu83hsodkyPXd+yV49NmzAMnUlnEJYDkDGg+8dphier/PtxnS5NQZELDLga4XjD3+CnkT6maRUkW95oyZVOzVTqzEkV4u3C5puqf34IlhH3srUJNH6pspoTtEn0usnce/eT36PYus9xnFtV8YpxDj65kA0n7FvuUDSCCg1hli0tMTofiHkheEUf94NTqV7YIOjYGeuAEdIGSxnDXWGh7ncs3k0r05CpEoJDQ0vvIkDOl8D+pjT53tkOo29jorN5BaES1Hv0GfK0eSndasJcjQ5fU9yjaGbt1oc/hIG8ZaeZ13kCeBMSeiNkqAY+y+SH9lZjdsuX0xuofF2hh41vdjM5Qc0Lp3s0SHZp5W1SFq3pzVhk+9h+5sq3HvfIfaGZUf59zYm6dr1gdrs/QduTMsGs+uS3SV++0Ret48jJxuNnUmJWHmiu27RCnkIf6uXD9b2sHvlA8tn7U9R7ZXJXdEMMrqwCIZEa+eRubIo3gQJjixaYWfDaJkfwaBT5lhwvePlvbAc9+XPDgyhxqfZpRM9t1MGxTRklVxe6kIB+D5B5oy3HMGKjudlaJjp4yUqDQw0JtOu32Oi5shAdU0EfpUGrCNLsEi7InvgDyWBU20YDlQG3HGlw5Di1H5r5VuFnhq1qlA86SFPWA6ys8gRAwZMzzqoQBaII=
+  bucket: s3://almaflorida.com.br
+  acl: ''
+  on:
+    repo: almaflorida/almaflorida.github.io
 branches:
   only:
-    - master
+  - master
